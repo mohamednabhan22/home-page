@@ -1,0 +1,58 @@
+.footer{
+    margin-top:40px;
+    h2{
+        font: normal normal bold 24px/58px LT W23;
+        letter-spacing: 0px;
+        text-align: right;
+        margin-right: 30px;
+
+        color: #03608E;
+    }
+    .logo-image{
+        img{
+            margin: 0 0 3rem 4rem;
+
+        }
+    }
+    ul{
+        li{
+            font: normal normal normal 18px/28px  LT W23;
+    letter-spacing: 0.5px;
+    color: #334565;
+    text-align: right;
+        }
+    }
+    ul.social-links{
+        align-items: center;
+    justify-content: space-around;
+    
+    }
+    .buttons{
+        button{
+            border: none;
+            color: white;
+            width: 194px;
+            height: 50px;
+            background: #03608E 0% 0% no-repeat padding-box;
+            border-radius: 6px;
+            @media screen and (max-width:768px) {
+                width: 125px;
+            }
+            svg{
+                margin-right: 8px;
+                color: transparent;
+                border: 2px solid white;
+            }
+        }
+    }
+    .footer-row{
+        border-top: 1px solid #d6c7c7;
+        border-bottom: 1px solid #d6c7c7;
+        padding: 1.3rem 0;
+    }
+    .copy-right{
+        font: normal normal normal 18px/28px  LT W23;
+    letter-spacing: 0.5px;
+    color: #334565;
+    }
+}

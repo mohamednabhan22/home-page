@@ -1,0 +1,85 @@
+nav{
+    .navbar-toggler{
+        padding-top: .5rem;
+        .navbar-toggler-icon{
+            height: 1px !important;
+             display: block !important; 
+             margin-bottom: .5rem;
+               background-color: black !important;
+            }
+    }
+    
+     
+        .navbar-nav{
+            .nav-item.active {
+                .nav-link{
+                    color: $mainColor;
+                    font-weight: bold;
+
+                
+                }
+            }
+            &:last-of-type{
+                .nav-loggin{
+                    width: 125px;
+                    height: 50px;
+                    background: $mainColor 0% 0% no-repeat padding-box;
+                    border-radius: 250px;
+                    color:white;
+                    border: none;
+                    @extend %transition-m;
+                    &:hover{
+                        background:white;
+                        border: 1px solid $border-color;
+                        color:$mainColor
+                    }
+                    @media screen and (max-width:768px) {
+                        margin-bottom: 1rem;
+                    }
+                }
+                
+                .nav-button{width: 48px;
+                    height: 48px;
+                    border: 1px solid #03608E;
+                border-radius: 50%;
+                margin-right: 9px;
+                &:hover{
+                    background:#03608E;
+                    color:white
+                }
+                
+                }
+                @media screen and (max-width:768px) {
+                    margin-left: 1.5rem;
+                }
+
+            }
+            &.first-ul{
+                transform: translateX(30px);
+
+            }
+        .nav-link{
+            margin-left: .5rem;
+            color:black;
+            margin-top: .4rem;
+            font-size: 14px;
+            font-weight: 500;
+            @extend %transition-m;
+            &:hover{
+                color: $mainColor;
+                font-weight: bold;
+            }
+            @media screen and (max-width:1025px) {
+                font-size: 10px;
+            }
+        }
+    
+        }
+  
+     
+     
+    
+
+    
+    
+}

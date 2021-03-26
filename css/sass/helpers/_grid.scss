@@ -1,0 +1,31 @@
+.uppercase{
+    text-transform: uppercase;
+}
+.main_padding{
+    padding:$main-padding;
+}
+%transition-m{
+   transition: all .4s ease-in-out;
+}
+%background-p{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_title{
+    text-align: center;
+    font: normal normal bold 35px/30px LT W23;
+    letter-spacing: 0px;
+    color: #03608E;}
+
+.main-des{
+    text-align: center;
+font: normal normal normal 20px/29px  LT W23;
+letter-spacing: 0px;
+color: #9AA0B2;
+}
+::-webkit-scrollbar {width: 7px;}
+::-webkit-scrollbar-thumb{
+    background-color: $mainColor;
+}

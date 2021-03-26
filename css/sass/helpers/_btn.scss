@@ -1,0 +1,32 @@
+
+.main_btn{
+    @extend %transition-m;
+    width: 180px;
+    height: 58px;
+    background: $mainColor 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px #FF27373D;
+    border: 1px solid $border-color;
+    color: white;
+    border-radius: 3px;
+    &:hover{
+        color:$mainColor;
+        background-color: white;
+        
+    }
+}
+.sec_btn{
+    @extend %transition-m;
+    width: 95px;
+height: 37px;
+background: $mainColor ;
+border-radius: 3px;
+border: none;
+color: white;
+&:hover{
+    color:$mainColor;
+    background-color: white;
+    border: 1px solid $border-color;
+
+    
+}
+}
